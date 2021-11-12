@@ -134,7 +134,6 @@ def _parse_args() -> argparse.Namespace:
 
 if __name__ == '__main__':
     args = _parse_args()
-    path = 'C:/programming/Saber Interactive test task/json_logs/test_a.jsonl'
 
     file_a_path = os.path.abspath(args.input_file_1)
     file_b_path = os.path.abspath(args.input_file_2)
